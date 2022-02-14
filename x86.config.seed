@@ -3,16 +3,9 @@ CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
 # CONFIG_GRUB_IMAGES is not set
 # CONFIG_VMDK_IMAGES is not set
-CONFIG_DEVEL=y
-# CONFIG_CCACHE is not set
-CONFIG_TARGET_OPTIONS=y
 CONFIG_TARGET_ROOTFS_PARTSIZE=600
-CONFIG_TARGET_ROOTFS_EXT4FS=y
-# CONFIG_TARGET_ROOTFS_SQUASHFS is not set
-# CONFIG_SIGNED_PACKAGES is not set
-CONFIG_IB=y
-CONFIG_IB_STANDALONE=y
 
+<<<<<<< HEAD
 CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
 CONFIG_PACKAGE_ipv6helper=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
@@ -48,27 +41,35 @@ CONFIG_PACKAGE_usb-modeswitch=y
 CONFIG_PACKAGE_wget=y
 # CONFIG_OPENSSL_ENGINE_BUILTIN_AFALG is not set
 # CONFIG_OPENSSL_ENGINE_BUILTIN_DEVCRYPTO is not set
+=======
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
+CONFIG_PACKAGE_luci-app-ddnsto=y
+CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_DOCKER_OPTIONAL_FEATURES=y
+CONFIG_PACKAGE_luci-app-godproxy=y
+CONFIG_PACKAGE_luci-app-netdata=y
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-qbittorrent=y
+CONFIG_PACKAGE_luci-app-statistics=y
+CONFIG_PACKAGE_luci-app-transmission=y
+CONFIG_PACKAGE_luci-app-uugamebooster=y
+CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-theme-openwrt=y
+CONFIG_PACKAGE_luci-theme-openwrt-2020=y
+>>>>>>> ab2bc10c18906e2acacf284b854019aaa099b05c
 CONFIG_PACKAGE_collectd-mod-ping=y
 CONFIG_PACKAGE_collectd-mod-thermal=y
-CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
-CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
-CONFIG_PACKAGE_iptables-mod-ipopt=y
-CONFIG_PACKAGE_iptables-mod-tproxy=y
-CONFIG_PACKAGE_kmod-tcp-bbr=y
-CONFIG_PACKAGE_kmod-ipt-offload=y
-CONFIG_PACKAGE_kmod-fast-classifier=y
-CONFIG_PACKAGE_kmod-pppol2tp=y
-CONFIG_PACKAGE_kmod-zram=y
 
-CONFIG_DROPBEAR_ECC=y
-CONFIG_DROPBEAR_ECC_FULL=y
+
 
 CONFIG_PACKAGE_kmod-ath9k-htc=y
+CONFIG_PACKAGE_kmod-igc=y
 CONFIG_PACKAGE_kmod-mt76x0u=y
 CONFIG_PACKAGE_kmod-mt76x2u=y
 CONFIG_PACKAGE_kmod-rtl8821cu=y
 CONFIG_PACKAGE_kmod-rtl8812au-ac=y
-CONFIG_PACKAGE_kmod-rtl88x2bu=y
+CONFIG_PACKAGE_kmod-rtl8812au-ct=y
 CONFIG_PACKAGE_iw=y
 CONFIG_PACKAGE_iwinfo=y
 CONFIG_PACKAGE_wpad-wolfssl=y
